@@ -1,66 +1,9 @@
-ÊµÑéÆ÷²Ä:
-	Õ½½¢STM32F103¿ª·¢°åV3°æ±¾
+å®žéªŒå™¨æ:
+	stm32f103vet6
 	
-ÊµÑéÄ¿µÄ:
-	Ñ§Ï°´®¿ÚµÄÊ¹ÓÃ(½ÓÊÕÓë·¢ËÍ)
+å®žéªŒç›®çš„:
+	transplant mavlink on arm
 	
-Ó²¼þ×ÊÔ´:
-	1,DS0(Á¬½ÓÔÚPB5)  
-	2,´®¿Ú1(²¨ÌØÂÊ:115200,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	
-ÊµÑéÏÖÏó:
-	±¾ÊµÑé,STM32Í¨¹ý´®¿Ú1ºÍÉÏÎ»»ú¶Ô»°£¬STM32ÔÚÊÕµ½ÉÏÎ»»ú·¢¹ýÀ´µÄ×Ö·û´®(ÒÔ»Ø³µ»»
-	ÐÐ½áÊø)ºó£¬	Ô­Ô­±¾±¾µÄ·µ»Ø¸øÉÏÎ»»ú¡£ÏÂÔØºó£¬DS0ÉÁË¸£¬ÌáÊ¾³ÌÐòÔÚÔËÐÐ£¬Í¬Ê±Ã¿
-	¸ôÒ»¶¨Ê±¼ä£¬Í¨¹ý´®¿Ú1Êä³öÒ»¶ÎÐÅÏ¢µ½µçÄÔ¡£ 
-	
-×¢ÒâÊÂÏî:
-	1,µçÄÔ¶Ë´®¿Úµ÷ÊÔÖúÊÖ²¨ÌØÂÊ±ØÐëÊÇ115200.
-	2,ÇëÊ¹ÓÃXCOM/SSCOM´®¿Úµ÷ÊÔÖúÊÖ,ÆäËû´®¿ÚÖúÊÖ¿ÉÄÜ¿ØÖÆDTR/RTSµ¼ÖÂMCU¸´Î»/³ÌÐò²»ÔËÐÐ
-	3,´®¿ÚÊäÈë×Ö·û´®ÒÔ»Ø³µ»»ÐÐ½áÊø.
-	4,ÇëÓÃUSBÏßÁ¬½ÓÔÚUSB_232,ÕÒµ½USB×ª´®¿Úºó²âÊÔ±¾Àý³Ì.
-	5,P4µÄPA9/PA10±ØÐëÍ¨¹ýÌøÏßÃ±Á¬½ÓÔÚRXD/TXDÉÏ.
-
-
--------------------------------------------------------------------------------------------
-¡ôÆäËûÖØÒªÁ¬½Ó£º
-  ¿ª·¢°å¹âÅÌ×ÊÁÏÏÂÔØµØÖ·£¨ÊÓÆµ+ÎÄµµ+Ô´ÂëµÈ£©£ºhttp://www.openedv.com/posts/list/13912.htm
-  Ìí¼ÓÎ¢ÐÅ¹«ÖÚÆ½Ì¨·½·¨£ºhttp://www.openedv.com/posts/list/45157.htm
-  
-
-¡ôÓÑÇéÌáÊ¾£ºÈç¹ûÄúÏëÒÔºó¼°Ê±Ãâ·ÑµÄÊÕµ½ÕýµãÔ­×ÓËùÓÐ¿ª·¢°å×ÊÁÏ¸üÐÂÔö¼ÓÍ¨Öª£¬Çë¹Ø×¢Î¢ÐÅ¹«ÖÚÆ½Ì¨£º
-
- 2ÖÖÌí¼Ó·½·¨£º£¨¶¯¶¯ÊÖÌáÉýÄúµÄÑ§Ï°Ð§ÂÊ£¬¾ªÏ²²»¶ÏÅ¶£©
-£¨1£©´ò¿ªÎ¢ÐÅ->Ìí¼ÓÅóÓÑ->¹«ÖÚºÅ->ÊäÈë¡°ÕýµãÔ­×Ó¡±->µã»÷¹Ø×¢
-£¨2£©´ò¿ªÎ¢ÐÅ->Ìí¼ÓÅóÓÑ->ÊäÈë¡°alientek_stm32"->µã»÷¹Ø×¢
-
- ¾ßÌåÎ¢ÐÅÌí¼Ó·½·¨£¬Çë²Î¿¼Ìû×Ó£ºhttp://www.openedv.com/posts/list/45157.htm
-
- 
-
-			ÕýµãÔ­×Ó@ALIENTEK 
-			¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-			µç»°£º020-38271790
-			´«Õæ£º020-36773971
-			¹ºÂò£ºhttp://eboard.taobao.com
-			¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-			¼¼ÊõÂÛÌ³£ºwww.openedv.com
-
-
-
-
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+å®žéªŒçŽ°è±¡:
+	æœ¬å®žéªŒ,STM32é€šè¿‡ä¸²å£1å’Œä¸Šä½æœºå¯¹è¯ï¼ŒSTM32åœ¨æ”¶åˆ°ä¸Šä½æœºå‘è¿‡æ¥çš„å­—ç¬¦ä¸²(ä»¥å›žè½¦æ¢
+	è¡Œç»“æŸ)åŽï¼Œ	åŽŸåŽŸæœ¬æœ¬çš„è¿”å›žç»™ä¸Šä½æœºã€‚ä¸‹è½½åŽï¼Œé€šè¿‡ä¸²å£1è¾“å‡ºä¸€æ®µä¿¡æ¯åˆ°ç”µè„‘ã€‚ 			
